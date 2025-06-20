@@ -1,5 +1,6 @@
 # Mc2D
-A Love2D Extension | Library For Making Games With like Minecraft's Commands Syntax With Lua!
+A Love2D Extension | Library For Making Games With Minecraft's Commands Syntax With Lua!
+And Also Scripting Extensions, Input, More!
 
 # Document
 Documentation Of This Extension Will may be Released on a Youtube Channel by my Friend, (ProgramWithLukas).
