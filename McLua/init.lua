@@ -1,6 +1,6 @@
 local Module = {}
-function _G.len(thing)
-    return #thing
+function _G.len(t)
+    return #t
 end
 
 Module.entity = require 'McLua.server.entities'
