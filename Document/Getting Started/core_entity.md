@@ -32,3 +32,7 @@ function love.draw()
    Mc2D:SRAW()
 end
 ```
+This Code Allows you To Draw a Object In The Screen With the Mc2D.entity Module, 
+
+Depending on how many Arguments you
+Supplied to The Last Arg of SetDrawAttribute, It Will Depend if The Object is a Circle or Not.
