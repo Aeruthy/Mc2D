@@ -20,3 +20,31 @@ Mc2D.commands.execute:As("YourMainTag", function(entity)
    -- Do the Logic of your Entity using Mc2D.commands.execute:As().
 end)
 ```
+
+# Scoreboard
+Scoreboard Objectives is Just Variables in Minecraft's Real scoreboard command, But in Mc2D. You will be Able to Do more than Using it as Variables to Hold Numbers.
+
+All Of the Available Ports Or Type to Be Used In the Scoreboard Command is still Little:
+
+```json
+{
+   "ports": {
+      "Dummy": "Type:DummyStored",
+      "String": "Type:StringStored"
+   }
+}
+```
+
+However. Me and Lukas Will be Working on this Feature To be Implemented after The Execute command.
+
+Examples on making a Objective:
+```lua
+function love.load()
+   -- Make an Objective
+   Mc2D.commands.scoreboard:ObjectiveAdd("ObjectiveName", Dummy, 10)
+
+
+end
+```
+
+If You Have an Objective, 
