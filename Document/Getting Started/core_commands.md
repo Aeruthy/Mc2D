@@ -43,8 +43,12 @@ function love.load()
    -- Make an Objective
    Mc2D.commands.scoreboard:ObjectiveAdd("ObjectiveName", Dummy, 10)
 
-
+   -- Setting a Value to a Objective
+Mc2D.commands.scoreboard:ObjectiveSet("ObjectiveName", 100)
 end
 ```
 
-If You Have an Objective, 
+If You Have an Objective, And Wanted to Access it, Using This Function Can help You with That:
+```lua
+local ObjectiveValue = Mc2D.commands.scoreboard:GlobalSee("ObjectiveName")
+```
